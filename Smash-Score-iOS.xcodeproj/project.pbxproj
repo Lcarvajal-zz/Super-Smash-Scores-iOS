@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80E3E2881B4C900A000A9C01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E3E2871B4C900A000A9C01 /* main.m */; };
+		80E3E28B1B4C900A000A9C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E3E28A1B4C900A000A9C01 /* AppDelegate.m */; };
+		80E3E28E1B4C900A000A9C01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E3E28D1B4C900A000A9C01 /* ViewController.m */; };
+		80E3E2911B4C900B000A9C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E3E28F1B4C900B000A9C01 /* Main.storyboard */; };
+		80E3E2931B4C900B000A9C01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E3E2921B4C900B000A9C01 /* Images.xcassets */; };
+		80E3E2961B4C900B000A9C01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E3E2941B4C900B000A9C01 /* LaunchScreen.xib */; };
+		80E3E2A21B4C900B000A9C01 /* Smash_Score_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E3E2A11B4C900B000A9C01 /* Smash_Score_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80E3E29C1B4C900B000A9C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80E3E27A1B4C900A000A9C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80E3E2811B4C900A000A9C01;
+			remoteInfo = "Smash-Score-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80E3E2821B4C900A000A9C01 /* Smash-Score-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smash-Score-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E3E2861B4C900A000A9C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E3E2871B4C900A000A9C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80E3E2891B4C900A000A9C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80E3E28A1B4C900A000A9C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80E3E28C1B4C900A000A9C01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80E3E28D1B4C900A000A9C01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80E3E2901B4C900B000A9C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80E3E2921B4C900B000A9C01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80E3E2951B4C900B000A9C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80E3E29B1B4C900B000A9C01 /* Smash-Score-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smash-Score-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E3E2A01B4C900B000A9C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E3E2A11B4C900B000A9C01 /* Smash_Score_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smash_Score_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80E3E27F1B4C900A000A9C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E3E2981B4C900B000A9C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80E3E2791B4C900A000A9C01 = {
+			isa = PBXGroup;
+			children = (
+				80E3E2841B4C900A000A9C01 /* Smash-Score-iOS */,
+				80E3E29E1B4C900B000A9C01 /* Smash-Score-iOSTests */,
+				80E3E2831B4C900A000A9C01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80E3E2831B4C900A000A9C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80E3E2821B4C900A000A9C01 /* Smash-Score-iOS.app */,
+				80E3E29B1B4C900B000A9C01 /* Smash-Score-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80E3E2841B4C900A000A9C01 /* Smash-Score-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				80E3E2891B4C900A000A9C01 /* AppDelegate.h */,
+				80E3E28A1B4C900A000A9C01 /* AppDelegate.m */,
+				80E3E28C1B4C900A000A9C01 /* ViewController.h */,
+				80E3E28D1B4C900A000A9C01 /* ViewController.m */,
+				80E3E28F1B4C900B000A9C01 /* Main.storyboard */,
+				80E3E2921B4C900B000A9C01 /* Images.xcassets */,
+				80E3E2941B4C900B000A9C01 /* LaunchScreen.xib */,
+				80E3E2851B4C900A000A9C01 /* Supporting Files */,
+			);
+			path = "Smash-Score-iOS";
+			sourceTree = "<group>";
+		};
+		80E3E2851B4C900A000A9C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80E3E2861B4C900A000A9C01 /* Info.plist */,
+				80E3E2871B4C900A000A9C01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80E3E29E1B4C900B000A9C01 /* Smash-Score-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				80E3E2A11B4C900B000A9C01 /* Smash_Score_iOSTests.m */,
+				80E3E29F1B4C900B000A9C01 /* Supporting Files */,
+			);
+			path = "Smash-Score-iOSTests";
+			sourceTree = "<group>";
+		};
+		80E3E29F1B4C900B000A9C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80E3E2A01B4C900B000A9C01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80E3E2811B4C900A000A9C01 /* Smash-Score-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E3E2A51B4C900B000A9C01 /* Build configuration list for PBXNativeTarget "Smash-Score-iOS" */;
+			buildPhases = (
+				80E3E27E1B4C900A000A9C01 /* Sources */,
+				80E3E27F1B4C900A000A9C01 /* Frameworks */,
+				80E3E2801B4C900A000A9C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smash-Score-iOS";
+			productName = "Smash-Score-iOS";
+			productReference = 80E3E2821B4C900A000A9C01 /* Smash-Score-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80E3E29A1B4C900B000A9C01 /* Smash-Score-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E3E2A81B4C900B000A9C01 /* Build configuration list for PBXNativeTarget "Smash-Score-iOSTests" */;
+			buildPhases = (
+				80E3E2971B4C900B000A9C01 /* Sources */,
+				80E3E2981B4C900B000A9C01 /* Frameworks */,
+				80E3E2991B4C900B000A9C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80E3E29D1B4C900B000A9C01 /* PBXTargetDependency */,
+			);
+			name = "Smash-Score-iOSTests";
+			productName = "Smash-Score-iOSTests";
+			productReference = 80E3E29B1B4C900B000A9C01 /* Smash-Score-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80E3E27A1B4C900A000A9C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Lukas Carvajal";
+				TargetAttributes = {
+					80E3E2811B4C900A000A9C01 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					80E3E29A1B4C900B000A9C01 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 80E3E2811B4C900A000A9C01;
+					};
+				};
+			};
+			buildConfigurationList = 80E3E27D1B4C900A000A9C01 /* Build configuration list for PBXProject "Smash-Score-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80E3E2791B4C900A000A9C01;
+			productRefGroup = 80E3E2831B4C900A000A9C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80E3E2811B4C900A000A9C01 /* Smash-Score-iOS */,
+				80E3E29A1B4C900B000A9C01 /* Smash-Score-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80E3E2801B4C900A000A9C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E3E2911B4C900B000A9C01 /* Main.storyboard in Resources */,
+				80E3E2961B4C900B000A9C01 /* LaunchScreen.xib in Resources */,
+				80E3E2931B4C900B000A9C01 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E3E2991B4C900B000A9C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80E3E27E1B4C900A000A9C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E3E28E1B4C900A000A9C01 /* ViewController.m in Sources */,
+				80E3E28B1B4C900A000A9C01 /* AppDelegate.m in Sources */,
+				80E3E2881B4C900A000A9C01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E3E2971B4C900B000A9C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E3E2A21B4C900B000A9C01 /* Smash_Score_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80E3E29D1B4C900B000A9C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80E3E2811B4C900A000A9C01 /* Smash-Score-iOS */;
+			targetProxy = 80E3E29C1B4C900B000A9C01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80E3E28F1B4C900B000A9C01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80E3E2901B4C900B000A9C01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80E3E2941B4C900B000A9C01 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80E3E2951B4C900B000A9C01 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80E3E2A31B4C900B000A9C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80E3E2A41B4C900B000A9C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80E3E2A61B4C900B000A9C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Smash-Score-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80E3E2A71B4C900B000A9C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Smash-Score-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80E3E2A91B4C900B000A9C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Smash-Score-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smash-Score-iOS.app/Smash-Score-iOS";
+			};
+			name = Debug;
+		};
+		80E3E2AA1B4C900B000A9C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Smash-Score-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smash-Score-iOS.app/Smash-Score-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80E3E27D1B4C900A000A9C01 /* Build configuration list for PBXProject "Smash-Score-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E3E2A31B4C900B000A9C01 /* Debug */,
+				80E3E2A41B4C900B000A9C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E3E2A51B4C900B000A9C01 /* Build configuration list for PBXNativeTarget "Smash-Score-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E3E2A61B4C900B000A9C01 /* Debug */,
+				80E3E2A71B4C900B000A9C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80E3E2A81B4C900B000A9C01 /* Build configuration list for PBXNativeTarget "Smash-Score-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E3E2A91B4C900B000A9C01 /* Debug */,
+				80E3E2AA1B4C900B000A9C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80E3E27A1B4C900A000A9C01 /* Project object */;
+}
