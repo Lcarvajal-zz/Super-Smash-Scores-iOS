@@ -73,14 +73,12 @@
 // Recall last scoring, save score.
 - (IBAction)saveScoreButton:(id)sender;
 
-
 @end
 
 @implementation ScoreViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     
     [self resetAll];
     [self loadPlayers];
@@ -463,6 +461,29 @@
     self.lukas2B.backgroundColor = [UIColor whiteColor];
     self.jonah1B.backgroundColor = [UIColor whiteColor];
     self.jonah2B.backgroundColor = [UIColor whiteColor];
+}
+
+- (void) setScoresToZero {
+    
+    // Set all scores to 0.
+    self.alex[@"score"] = @0;
+    self.alex[@"firsts"] = @0;
+    self.alex[@"seconds"] = @0;
+    self.alex[@"thirds"] = @0;
+    
+    self.jonah[@"score"] = @0;
+    self.jonah[@"firsts"] = @0;
+    self.jonah[@"seconds"] = @0;
+    self.jonah[@"thirds"] = @0;
+    
+    self.lukas[@"score"] = @0;
+    self.lukas[@"firsts"] = @0;
+    self.lukas[@"seconds"] = @0;
+    self.lukas[@"thirds"] = @0;
+    
+    [self.alex saveInBackground];
+    [self.jonah saveInBackground];
+    [self.lukas saveInBackground];
 }
 
 - (void) addWin: (PFObject*)player {

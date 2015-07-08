@@ -19,8 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     // Initialize Parse.
-    [Parse setApplicationId:@"AOx87ytLbOa0WZ5PRwKJtw1l4oNMkDOkMSZVmJKT"
-                  clientKey:@"S0GI9VtIEhGYoxetVZmJWjMXwN8UOy4pMspF5COa"];
+    [Parse setApplicationId:@"Y7QYhzhX65TK2lPWf5ngZlYMvAoketgkRi5o67A7"
+                  clientKey:@"pTT4YIUj3PBvKCGHzFyF5XhAU2OfWQ3ClV7TmXsn"];
     
     // [Optional] Track statistics around application opens.
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
