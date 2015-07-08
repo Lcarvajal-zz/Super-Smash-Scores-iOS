@@ -231,18 +231,31 @@
     [self pressSecondPlaceButton:@"Lukas"];
 }
 
-- (IBAction)recallScoreButton:(id)sender {
-    
-    // Update table.
-    [self setTextFields];
-}
-
 - (IBAction)saveScoreButton:(id)sender {
     
-    NSLog(@"HI!");
-    
     // Update scores.
-    if (self.alexIsFirst) {
+    if (![self checkForSecondPlace]) { // Reset screen if no second place is selected.
+        // Alert user correct selection must be made.
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Score not saved!"
+                                                        message:@"Select at least one second place winner."
+                                                       delegate:self
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+        
+        // Reset.
+        [self resetAll];
+        
+        // Reload info.
+        [self loadPlayers];
+        [self loadPlaces];
+        
+        // Update table with new scores.
+        [self setTextFields];
+        
+        return;
+    }
+    else if (self.alexIsFirst) {
         
         [self addWin:self.alex];
         
@@ -284,7 +297,25 @@
         else
             [self addThirdPlaceWin:self.jonah];
     }
-    else {
+    else {  // Reset screen if no first place is selected.
+        
+        // Alert user correct selection must be made.
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Score not saved!"
+                                                        message:@"Select at least one first place winner."
+                                                       delegate:self
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+        
+        // Reset.
+        [self resetAll];
+        
+        // Reload info.
+        [self loadPlayers];
+        [self loadPlaces];
+        
+        // Update table with new scores.
+        [self setTextFields];
         return;
     }
     

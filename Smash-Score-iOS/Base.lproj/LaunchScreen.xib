@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6214" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
@@ -23,19 +23,73 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smash-launch-image" translatesAutoresizingMaskIntoConstraints="NO" id="O4I-qk-slq">
+                    <rect key="frame" x="8" y="8" width="464" height="464"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="O4I-qk-slq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4em-qg-U9J"/>
                 <constraint firstItem="kId-c2-rCX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="bottom" multiplier="1/3" constant="1" id="5cJ-9S-tgC"/>
+                <constraint firstAttribute="trailing" secondItem="O4I-qk-slq" secondAttribute="trailing" id="6OM-5G-zX1"/>
+                <constraint firstAttribute="bottom" secondItem="O4I-qk-slq" secondAttribute="bottom" id="9R2-hQ-qyh"/>
+                <constraint firstAttribute="trailing" secondItem="O4I-qk-slq" secondAttribute="trailing" id="Bnr-A6-t9H"/>
+                <constraint firstAttribute="centerY" secondItem="O4I-qk-slq" secondAttribute="centerY" id="GWF-bX-AqV"/>
                 <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Koa-jz-hwk"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstItem="O4I-qk-slq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="SyZ-y5-zkf"/>
+                <constraint firstItem="O4I-qk-slq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="T57-eB-VZs"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
+                <constraint firstAttribute="centerY" secondItem="O4I-qk-slq" secondAttribute="centerY" id="cLb-1e-d1X"/>
+                <constraint firstItem="O4I-qk-slq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cUo-N7-OsI"/>
                 <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
+                <constraint firstAttribute="centerX" secondItem="O4I-qk-slq" secondAttribute="centerX" id="jdY-Od-A3G"/>
+                <constraint firstAttribute="bottom" secondItem="O4I-qk-slq" secondAttribute="bottom" id="xHG-eZ-WGI"/>
+                <constraint firstAttribute="centerX" secondItem="O4I-qk-slq" secondAttribute="centerX" id="zRp-rh-Wvz"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="4em-qg-U9J"/>
+                    <exclude reference="6OM-5G-zX1"/>
+                    <exclude reference="9R2-hQ-qyh"/>
+                    <exclude reference="Bnr-A6-t9H"/>
+                    <exclude reference="GWF-bX-AqV"/>
+                    <exclude reference="SyZ-y5-zkf"/>
+                    <exclude reference="T57-eB-VZs"/>
+                    <exclude reference="cLb-1e-d1X"/>
+                    <exclude reference="cUo-N7-OsI"/>
+                    <exclude reference="jdY-Od-A3G"/>
+                    <exclude reference="xHG-eZ-WGI"/>
+                    <exclude reference="zRp-rh-Wvz"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="9R2-hQ-qyh"/>
+                    <include reference="Bnr-A6-t9H"/>
+                    <include reference="GWF-bX-AqV"/>
+                    <include reference="SyZ-y5-zkf"/>
+                    <include reference="cUo-N7-OsI"/>
+                    <include reference="jdY-Od-A3G"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="4em-qg-U9J"/>
+                    <include reference="6OM-5G-zX1"/>
+                    <include reference="T57-eB-VZs"/>
+                    <include reference="cLb-1e-d1X"/>
+                    <include reference="xHG-eZ-WGI"/>
+                    <include reference="zRp-rh-Wvz"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="548" y="455"/>
         </view>
     </objects>
+    <resources>
+        <image name="smash-launch-image" width="640" height="1136"/>
+    </resources>
 </document>
